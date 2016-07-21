@@ -7,7 +7,7 @@ import java.util.List;
 public class BookDAO {
 	
 	public static ArrayList<Book> books
-	= new ArrayList<Book>() {{
+	= new ArrayList<Book>() {{ 
 		add(new Book("Super livre", 
 		           "Marc Dupont", 
 		           new Date(2016,5,10), 
